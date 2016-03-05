@@ -1,0 +1,6 @@
+= redmine_features_for_testers
+
+Description goes here
+
+
+1. Switch admin to user and back

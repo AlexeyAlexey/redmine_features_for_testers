@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  # my_label: "My label"
+  switch_admin_to_user_and_back: 'Admin/User'
