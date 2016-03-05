@@ -4,3 +4,7 @@ Description goes here
 
 
 1. Switch admin to user and back
+
+Changelog
+  v0.0.1 - March 2016
+  
