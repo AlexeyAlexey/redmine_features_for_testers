@@ -27,5 +27,6 @@ Installing a plugin (http://www.redmine.org/projects/redmine/wiki/Plugins)
   3. Restart app (redmine)
 
 Changelog
-  v0.0._ - 14 March 2016
+  v0.0.1 - 14 March 2016
+    Add ability Switch admin to user and back
   
