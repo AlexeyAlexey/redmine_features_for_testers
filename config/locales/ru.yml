@@ -1,2 +1,4 @@
 ru:
+  project_module_redmine_features_for_testers: Для тестировщиков redmine-а
+  permission_switch_admin_to_user_and_back: Переключение между администратором и пользователем
   switch_admin_to_user_and_back: 'Admin/User'

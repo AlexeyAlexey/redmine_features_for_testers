@@ -2,9 +2,31 @@
 
 Description goes here
 
+В верхнем меню появляется ссылка 'Admin/User' для переключения администратора в состояние пользователя и обратно
+В настройках роли появится раздел 'For Redmine Testers'/'Для тестировщиков redmine-а' с правом 'Переключение между администратором и пользователем'/'Switch admin to user and back'
+
+  'Переключение между администратором и пользователем'/'Switch admin to user and back' - дает право на переключение администратора в состояние пользователя и обратно
+
+Настройка 
+  Роль с правом 'Переключение между администратором и пользователем'/'Switch admin to user and back' необходимо добавить в любой из проектов. 
+
+
+In top menu you can see new link named 'Admin/User'. 'Admin/User' - switch admin to user and back
+
+Settings
+  In settings of role you can see new module named 'For Redmine Testers'. Module 'For Redmine Testers' has permission 'Switch admin to user and back'. 'Switch admin to user and back' permission gives you permission for switch admin to user and back
+
+  You should add role with 'Switch admin to user and back' permission in any project
 
 1. Switch admin to user and back
 
+
+Installing a plugin (http://www.redmine.org/projects/redmine/wiki/Plugins)
+  1. Clone from https://github.com/AlexeyAlexey/redmine_features_for_testers.git
+  2. Copy redmine_features_for_testers to plugins folder of redmine
+  3. Restart app (redmine)
+
 Changelog
-  v0.0.1 - March 2016
+  v0.0.1 - 14 March 2016
+    Add ability Switch admin to user and back
   
