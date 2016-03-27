@@ -1,0 +1,8 @@
+<%=form_for user_tester do |f|%>
+  <%=f.hidden_field(:user_id, value: user_tester.user_id)%>
+
+  <%=f.password_field :ciphered_password %>
+  <%=f.password_field :ciphered_password_confirmation %>
+  
+  <%=f.submit%>
+<%end%>

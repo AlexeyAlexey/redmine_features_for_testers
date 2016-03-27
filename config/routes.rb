@@ -7,3 +7,5 @@ resources :switch_admin_to_user_and_back, except: [:index, :new, :show, :edit, :
   end
 end
 
+resources :user_testers
+

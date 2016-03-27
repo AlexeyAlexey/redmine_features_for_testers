@@ -1,3 +1,11 @@
+ActionDispatch::Callbacks.to_prepare do
+
+  
+  require_dependency 'redmine_features_for_testers_hook/user_testers_hook_listener'
+
+  User.send :include, RedmineFeaturesForTestersPatch::UserPatch
+
+end
 Redmine::Plugin.register :redmine_features_for_testers do
   name 'Redmine Features For Testers plugin'
   author 'Author name'
